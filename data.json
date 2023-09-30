@@ -1,0 +1,69 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "dashboard": [
+    {
+      "employeeInfo": {
+        "employeeCode": "001",
+        "employeeName": "田中　雄一",
+        "officeInfo": [{
+          "officeCode": "",
+          "officeName": ""
+        }]
+      },
+      "workingTime": 180,
+      "averageWorkingHours": 165,
+      "overtimeHours": 18,
+      "averageOvertimeHours": 10
+    },
+    {
+      "employeeInfo": {
+        "employeeCode": "002",
+        "employeeName": "鈴木　雄一",
+        "officeInfo": [{
+          "officeCode": "",
+          "officeName": ""
+        }]
+      },
+      "workingTime": 180,
+      "averageWorkingHours": 165,
+      "overtimeHours": 18,
+      "averageOvertimeHours": 10
+    },
+    {
+      "employeeInfo": {
+        "employeeCode": "003",
+        "employeeName": "浦和　雄一",
+        "officeInfo": [{
+          "officeCode": "",
+          "officeName": ""
+        }]
+      },
+      "workingTime": 180,
+      "averageWorkingHours": 165,
+      "overtimeHours": 18,
+      "averageOvertimeHours": 10
+    }
+  ]
+  
+}
