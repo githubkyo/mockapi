@@ -1,69 +1,90 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
-  "dashboard": [
-    {
-      "employeeInfo": {
-        "employeeCode": "001",
-        "employeeName": "田中　雄一",
-        "officeInfo": [{
-          "officeCode": "",
-          "officeName": ""
-        }]
+  "dashboard": {
+    "monthTimeCardDashboards": [
+      {
+        "employeeInfo": {
+          "employeeCode": "001",
+          "employeeName": "安倍新之助",
+          "officeInfo": [{
+            "officeCode": "001",
+            "officeName": "事業所A"
+          }]
+        },
+        "workingTime": 190,
+        "averageWorkingHours": 165,
+        "overtimeHours": 310,
+        "averageOvertimeHours": 320
       },
-      "workingTime": 180,
-      "averageWorkingHours": 165,
-      "overtimeHours": 18,
-      "averageOvertimeHours": 10
-    },
-    {
-      "employeeInfo": {
-        "employeeCode": "002",
-        "employeeName": "鈴木　雄一",
-        "officeInfo": [{
-          "officeCode": "",
-          "officeName": ""
-        }]
+      {
+        "employeeInfo": {
+          "employeeCode": "002",
+          "employeeName": "井口元通",
+          "officeInfo": [{
+            "officeCode": "001",
+            "officeName": "事業所A"
+          }]
+        },
+        "workingTime": 180,
+        "averageWorkingHours": 165,
+        "overtimeHours": 320,
+        "averageOvertimeHours": 330
       },
-      "workingTime": 180,
-      "averageWorkingHours": 165,
-      "overtimeHours": 18,
-      "averageOvertimeHours": 10
-    },
-    {
-      "employeeInfo": {
-        "employeeCode": "003",
-        "employeeName": "浦和　雄一",
-        "officeInfo": [{
-          "officeCode": "",
-          "officeName": ""
-        }]
+      {
+        "employeeInfo": {
+          "employeeCode": "001",
+          "employeeName": "川口慎一郎",
+          "officeInfo": [{
+            "officeCode": "001",
+            "officeName": "事業所A"
+          }]
+        },
+        "workingTime": 190,
+        "averageWorkingHours": 165,
+        "overtimeHours": 310,
+        "averageOvertimeHours": 338
       },
-      "workingTime": 180,
-      "averageWorkingHours": 165,
-      "overtimeHours": 18,
-      "averageOvertimeHours": 10
-    }
-  ]
-  
+      {
+        "employeeInfo": {
+          "employeeCode": "002",
+          "employeeName": "山口次郎",
+          "officeInfo": [{
+            "officeCode": "001",
+            "officeName": "事業所A"
+          }]
+        },
+        "workingTime": 178,
+        "averageWorkingHours": 165,
+        "overtimeHours": 322,
+        "averageOvertimeHours": 232
+      },
+      {
+        "employeeInfo": {
+          "employeeCode": "003",
+          "employeeName": "大山田みこ",
+          "officeInfo": [{
+            "officeCode": "002",
+            "officeName": "事業所B"
+          }]
+        },
+        "workingTime": 175,
+        "averageWorkingHours": 188,
+        "overtimeHours": 325,
+        "averageOvertimeHours": 316
+      },
+      {
+        "employeeInfo": {
+          "employeeCode": "003",
+          "employeeName": "山田太郎",
+          "officeInfo": [{
+            "officeCode": "002",
+            "officeName": "事業所B"
+          }]
+        },
+        "workingTime": 173,
+        "averageWorkingHours": 188,
+        "overtimeHours": 327,
+        "averageOvertimeHours": 316
+      }
+    ]
+  }
 }
