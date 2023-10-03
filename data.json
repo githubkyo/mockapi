@@ -12,8 +12,8 @@
         },
         "workingTime": 190,
         "averageWorkingHours": 165,
-        "overtimeHours": 310,
-        "averageOvertimeHours": 320
+        "remainingHours": 310,
+        "averageRemainingHours": 320
       },
       {
         "employeeInfo": {
@@ -26,8 +26,8 @@
         },
         "workingTime": 180,
         "averageWorkingHours": 165,
-        "overtimeHours": 320,
-        "averageOvertimeHours": 330
+        "remainingHours": 320,
+        "averageRemainingHours": 330
       },
       {
         "employeeInfo": {
@@ -40,8 +40,8 @@
         },
         "workingTime": 190,
         "averageWorkingHours": 165,
-        "overtimeHours": 310,
-        "averageOvertimeHours": 338
+        "remainingHours": 310,
+        "averageRemainingHours": 338
       },
       {
         "employeeInfo": {
@@ -54,8 +54,8 @@
         },
         "workingTime": 178,
         "averageWorkingHours": 165,
-        "overtimeHours": 322,
-        "averageOvertimeHours": 232
+        "remainingHours": 322,
+        "averageRemainingHours": 232
       },
       {
         "employeeInfo": {
@@ -68,8 +68,8 @@
         },
         "workingTime": 175,
         "averageWorkingHours": 188,
-        "overtimeHours": 325,
-        "averageOvertimeHours": 316
+        "remainingHours": 325,
+        "averageRemainingHours": 316
       },
       {
         "employeeInfo": {
@@ -82,8 +82,260 @@
         },
         "workingTime": 173,
         "averageWorkingHours": 188,
-        "overtimeHours": 327,
-        "averageOvertimeHours": 316
+        "remainingHours": 327,
+        "averageRemainingHours": 316
+      },
+      {
+        "employeeInfo": {
+          "employeeCode": "001",
+          "employeeName": "安倍新之助",
+          "officeInfo": [{
+            "officeCode": "001",
+            "officeName": "事業所A"
+          }]
+        },
+        "workingTime": 190,
+        "averageWorkingHours": 165,
+        "remainingHours": 310,
+        "averageRemainingHours": 320
+      },
+      {
+        "employeeInfo": {
+          "employeeCode": "002",
+          "employeeName": "井口元通",
+          "officeInfo": [{
+            "officeCode": "001",
+            "officeName": "事業所A"
+          }]
+        },
+        "workingTime": 180,
+        "averageWorkingHours": 165,
+        "remainingHours": 320,
+        "averageRemainingHours": 330
+      },
+      {
+        "employeeInfo": {
+          "employeeCode": "001",
+          "employeeName": "川口慎一郎",
+          "officeInfo": [{
+            "officeCode": "001",
+            "officeName": "事業所A"
+          }]
+        },
+        "workingTime": 190,
+        "averageWorkingHours": 165,
+        "remainingHours": 310,
+        "averageRemainingHours": 338
+      },
+      {
+        "employeeInfo": {
+          "employeeCode": "002",
+          "employeeName": "山口次郎",
+          "officeInfo": [{
+            "officeCode": "001",
+            "officeName": "事業所A"
+          }]
+        },
+        "workingTime": 178,
+        "averageWorkingHours": 165,
+        "remainingHours": 322,
+        "averageRemainingHours": 232
+      },
+      {
+        "employeeInfo": {
+          "employeeCode": "003",
+          "employeeName": "大山田みこ",
+          "officeInfo": [{
+            "officeCode": "002",
+            "officeName": "事業所B"
+          }]
+        },
+        "workingTime": 175,
+        "averageWorkingHours": 188,
+        "remainingHours": 325,
+        "averageRemainingHours": 316
+      },
+      {
+        "employeeInfo": {
+          "employeeCode": "003",
+          "employeeName": "山田太郎",
+          "officeInfo": [{
+            "officeCode": "002",
+            "officeName": "事業所B"
+          }]
+        },
+        "workingTime": 173,
+        "averageWorkingHours": 188,
+        "remainingHours": 327,
+        "averageRemainingHours": 316
+      },
+      {
+        "employeeInfo": {
+          "employeeCode": "001",
+          "employeeName": "安倍新之助",
+          "officeInfo": [{
+            "officeCode": "001",
+            "officeName": "事業所A"
+          }]
+        },
+        "workingTime": 190,
+        "averageWorkingHours": 165,
+        "remainingHours": 310,
+        "averageRemainingHours": 320
+      },
+      {
+        "employeeInfo": {
+          "employeeCode": "002",
+          "employeeName": "井口元通",
+          "officeInfo": [{
+            "officeCode": "001",
+            "officeName": "事業所A"
+          }]
+        },
+        "workingTime": 180,
+        "averageWorkingHours": 165,
+        "remainingHours": 320,
+        "averageRemainingHours": 330
+      },
+      {
+        "employeeInfo": {
+          "employeeCode": "001",
+          "employeeName": "川口慎一郎",
+          "officeInfo": [{
+            "officeCode": "001",
+            "officeName": "事業所A"
+          }]
+        },
+        "workingTime": 190,
+        "averageWorkingHours": 165,
+        "remainingHours": 310,
+        "averageRemainingHours": 338
+      },
+      {
+        "employeeInfo": {
+          "employeeCode": "002",
+          "employeeName": "山口次郎",
+          "officeInfo": [{
+            "officeCode": "001",
+            "officeName": "事業所A"
+          }]
+        },
+        "workingTime": 178,
+        "averageWorkingHours": 165,
+        "remainingHours": 322,
+        "averageRemainingHours": 232
+      },
+      {
+        "employeeInfo": {
+          "employeeCode": "003",
+          "employeeName": "大山田みこ",
+          "officeInfo": [{
+            "officeCode": "002",
+            "officeName": "事業所B"
+          }]
+        },
+        "workingTime": 175,
+        "averageWorkingHours": 188,
+        "remainingHours": 325,
+        "averageRemainingHours": 316
+      },
+      {
+        "employeeInfo": {
+          "employeeCode": "003",
+          "employeeName": "山田太郎",
+          "officeInfo": [{
+            "officeCode": "002",
+            "officeName": "事業所B"
+          }]
+        },
+        "workingTime": 173,
+        "averageWorkingHours": 188,
+        "remainingHours": 327,
+        "averageRemainingHours": 316
+      },
+      {
+        "employeeInfo": {
+          "employeeCode": "001",
+          "employeeName": "安倍新之助",
+          "officeInfo": [{
+            "officeCode": "001",
+            "officeName": "事業所A"
+          }]
+        },
+        "workingTime": 190,
+        "averageWorkingHours": 165,
+        "remainingHours": 310,
+        "averageRemainingHours": 320
+      },
+      {
+        "employeeInfo": {
+          "employeeCode": "002",
+          "employeeName": "井口元通",
+          "officeInfo": [{
+            "officeCode": "001",
+            "officeName": "事業所A"
+          }]
+        },
+        "workingTime": 180,
+        "averageWorkingHours": 165,
+        "remainingHours": 320,
+        "averageRemainingHours": 330
+      },
+      {
+        "employeeInfo": {
+          "employeeCode": "001",
+          "employeeName": "川口慎一郎",
+          "officeInfo": [{
+            "officeCode": "001",
+            "officeName": "事業所A"
+          }]
+        },
+        "workingTime": 190,
+        "averageWorkingHours": 165,
+        "remainingHours": 310,
+        "averageRemainingHours": 338
+      },
+      {
+        "employeeInfo": {
+          "employeeCode": "002",
+          "employeeName": "山口次郎",
+          "officeInfo": [{
+            "officeCode": "001",
+            "officeName": "事業所A"
+          }]
+        },
+        "workingTime": 178,
+        "averageWorkingHours": 165,
+        "remainingHours": 322,
+        "averageRemainingHours": 232
+      },
+      {
+        "employeeInfo": {
+          "employeeCode": "003",
+          "employeeName": "大山田みこ",
+          "officeInfo": [{
+            "officeCode": "002",
+            "officeName": "事業所B"
+          }]
+        },
+        "workingTime": 175,
+        "averageWorkingHours": 188,
+        "remainingHours": 325,
+        "averageRemainingHours": 316
+      },
+      {
+        "employeeInfo": {
+          "employeeCode": "003",
+          "employeeName": "山田太郎",
+          "officeInfo": [{
+            "officeCode": "002",
+            "officeName": "事業所B"
+          }]
+        },
+        "workingTime": 173,
+        "averageWorkingHours": 188,
+        "remainingHours": 327,
+        "averageRemainingHours": 316
       }
     ]
   }
