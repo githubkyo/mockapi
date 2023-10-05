@@ -6,9 +6,9 @@
         "officeName": "事業所A"
       },
       "workingTime": 601400,
-      "averageWorkingHours": 9900,
-      "remainingHours": 608600,
-      "averageRemainingHours": 609200
+      "averageWorkingTime": 9900,
+      "remainingTime": 608600,
+      "averageRemainingTime": 609200
     },
     {
       "officeInfo": {
@@ -16,9 +16,9 @@
         "officeName": "事業所B"
       },
       "workingTime": 601400,
-      "averageWorkingHours": 9900,
-      "remainingHours": 608600,
-      "averageRemainingHours": 609200
+      "averageWorkingTime": 9900,
+      "remainingTime": 608600,
+      "averageRemainingTime": 609200
     }
   ],
   "dashboard_month_employee": [
@@ -34,9 +34,9 @@
         ]
       },
       "workingTime": 601400,
-      "averageWorkingHours": 9900,
-      "remainingHours": 608600,
-      "averageRemainingHours": 609200
+      "averageWorkingTime": 9900,
+      "remainingTime": 608600,
+      "averageRemainingTime": 609200
     },
     {
       "employeeInfo": {
@@ -50,9 +50,9 @@
         ]
       },
       "workingTime": 600800,
-      "averageWorkingHours": 9900,
-      "remainingHours": 609200,
-      "averageRemainingHours": 609800
+      "averageWorkingTime": 9900,
+      "remainingTime": 609200,
+      "averageRemainingTime": 609800
     }
   ],
   "dashboard_day_office": {
@@ -63,9 +63,9 @@
           "officeName": "事業所A"
         },
         "workingTime": 78030,
-        "averageWorkingHours": 59400,
-        "remainingHours": 29970,
-        "averageRemainingHours": 12000
+        "averageWorkingTime": 59400,
+        "remainingTime": 29970,
+        "averageRemainingTime": 12000
       },
       {
         "officeInfo": {
@@ -73,9 +73,9 @@
           "officeName": "事業所B"
         },
         "workingTime": 84000,
-        "averageWorkingHours": 54000,
-        "remainingHours": 24000,
-        "averageRemainingHours": 12000
+        "averageWorkingTime": 54000,
+        "remainingTime": 24000,
+        "averageRemainingTime": 12000
       },
       {
         "officeInfo": {
@@ -83,9 +83,9 @@
           "officeName": "事業所C"
         },
         "workingTime": 78000,
-        "averageWorkingHours": 55200,
-        "remainingHours": 30000,
-        "averageRemainingHours": 12000
+        "averageWorkingTime": 55200,
+        "remainingTime": 30000,
+        "averageRemainingTime": 12000
       }
     ],
     "totalCount": 60
@@ -104,9 +104,9 @@
           ]
         },
         "workingTime": 600,
-        "averageWorkingHours": 540,
-        "remainingHours": 180,
-        "averageRemainingHours": 240
+        "averageWorkingTime": 540,
+        "remainingTime": 180,
+        "averageRemainingTime": 240
       },
       {
         "employeeInfo": {
@@ -120,9 +120,9 @@
           ]
         },
         "workingTime": 660,
-        "averageWorkingHours": 540,
-        "remainingHours": 120,
-        "averageRemainingHours": 240
+        "averageWorkingTime": 540,
+        "remainingTime": 120,
+        "averageRemainingTime": 240
       }
     ],
     "totalCount": 60
