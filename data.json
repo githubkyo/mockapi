@@ -2,7 +2,7 @@
   "dashboard_month_office": [
     {
       "officeInfo": {
-        "officeId": "001",
+        "officeId": 1,
         "officeName": "事業所A"
       },
       "workingTime": 601400,
@@ -12,7 +12,7 @@
     },
     {
       "officeInfo": {
-        "officeId": "002",
+        "officeId": 1,
         "officeName": "事業所B"
       },
       "workingTime": 601400,
@@ -28,7 +28,7 @@
         "employeeName": "安倍新之助",
         "officeInfo": [
           {
-            "officeId": "001",
+            "officeId": 1,
             "officeName": "事業所A"
           }
         ]
@@ -44,7 +44,7 @@
         "employeeName": "井口元通",
         "officeInfo": [
           {
-            "officeId": "001",
+            "officeId": 1,
             "officeName": "事業所A"
           }
         ]
