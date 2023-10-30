@@ -1,130 +1,69 @@
 {
-  "dashboard_month_office": [
+  "drivers": [
     {
-      "officeInfo": {
-        "officeId": 1,
-        "officeName": "事業所A"
-      },
-      "workingTime": 601400,
-      "averageWorkingTime": 9900,
-      "remainingTime": 608600,
-      "averageRemainingTime": 609200
+      "id": 1,
+      "name": "大平 優馬"
     },
     {
-      "officeInfo": {
-        "officeId": 1,
-        "officeName": "事業所B"
-      },
-      "workingTime": 601400,
-      "averageWorkingTime": 9900,
-      "remainingTime": 608600,
-      "averageRemainingTime": 609200
+      "id": 2,
+      "name": "田中　太郎"
     }
   ],
-  "dashboard_month_employee": [
+  "cars": [
     {
-      "employeeInfo": {
-        "employeeCode": "001",
-        "employeeName": "安倍新之助",
-        "officeInfo": [
-          {
-            "officeId": 1,
-            "officeName": "事業所A"
-          }
-        ]
-      },
-      "workingTime": 601400,
-      "averageWorkingTime": 9900,
-      "remainingTime": 608600,
-      "averageRemainingTime": 609200
+      "id": 1,
+      "name": "車両１"
     },
     {
-      "employeeInfo": {
-        "employeeCode": "002",
-        "employeeName": "井口元通",
-        "officeInfo": [
-          {
-            "officeId": 1,
-            "officeName": "事業所A"
-          }
-        ]
-      },
-      "workingTime": 600800,
-      "averageWorkingTime": 9900,
-      "remainingTime": 609200,
-      "averageRemainingTime": 609800
+      "id": 2,
+      "name": "車両２"
     }
   ],
-  "dashboard_day_office": {
-    "result": [
-      {
-        "officeInfo": {
-          "officeId": 1,
-          "officeName": "事業所A"
-        },
-        "workingTime": 78030,
-        "averageWorkingTime": 59400,
-        "remainingTime": 29970,
-        "averageRemainingTime": 12000
-      },
-      {
-        "officeInfo": {
-          "officeId": 2,
-          "officeName": "事業所B"
-        },
-        "workingTime": 84000,
-        "averageWorkingTime": 54000,
-        "remainingTime": 24000,
-        "averageRemainingTime": 12000
-      },
-      {
-        "officeInfo": {
-          "officeId": 3,
-          "officeName": "事業所C"
-        },
-        "workingTime": 78000,
-        "averageWorkingTime": 55200,
-        "remainingTime": 30000,
-        "averageRemainingTime": 12000
-      }
-    ],
-    "totalCount": 60
-  },
-  "dashboard_day_employee": {
-    "result": [
-      {
-        "employeeInfo": {
-          "employeeCode": "001",
-          "employeeName": "安倍新之助",
-          "officeInfo": [
-            {
-              "officeId": 1,
-              "officeName": "事業所A"
-            }
-          ]
-        },
-        "workingTime": 600,
-        "averageWorkingTime": 540,
-        "remainingTime": 180,
-        "averageRemainingTime": 240
-      },
-      {
-        "employeeInfo": {
-          "employeeCode": "002",
-          "employeeName": "井口元通",
-          "officeInfo": [
-            {
-              "officeId": 1,
-              "officeName": "事業所A"
-            }
-          ]
-        },
-        "workingTime": 660,
-        "averageWorkingTime": 540,
-        "remainingTime": 120,
-        "averageRemainingTime": 240
-      }
-    ],
-    "totalCount": 60
+  "vahicle_allocation_table_by_car": [
+    {
+      "//": "ドライバーID",
+      "id": 1,
+      "//": "車両ID",
+      "group": 1,
+      "title": "大平 優馬 11:00〜16:00",
+      "start_time": "2023-10-30 11:00",
+      "end_time": "2023-10-30 16:00",
+      "note": "備考です"
+    },
+    {
+      "id": 2,
+      "group": 2,
+      "title": "田中　太郎 13:00〜20:00",
+      "start_time": "2023-10-30 13:00",
+      "end_time": "2023-10-30 20:00",
+      "note": "備考です"
+    }
+  ],
+  "vahicle_allocation_table_by_driver": [
+    {
+      "//": "車両ID",
+      "id": 1,
+      "//": "ドライバーID",
+      "group": 1,
+      "title": "車両１ 11:00〜16:00",
+      "start_time": "2023-10-30 11:00",
+      "end_time": "2023-10-30 16:00",
+      "note": "備考です"
+    },
+    {
+      "id": 2,
+      "group": 2,
+      "title": "車両２ 13:00〜20:00",
+      "start_time": "2023-10-30 13:00",
+      "end_time": "2023-10-30 20:00",
+      "note": "備考です"
+    }
+  ],
+  "post_vahicle_allocation_table": {
+    "driverId": 1,
+    "carId": 1,
+    "startAt": "2023-10-30 13:00",
+    "endAt": "2023-10-30 20:00",
+    "note": "備考です"
   }
 }
