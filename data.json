@@ -1,69 +1,89 @@
 {
-  "drivers": [
-    {
-      "id": 1,
-      "name": "大平 優馬"
-    },
-    {
-      "id": 2,
-      "name": "田中　太郎"
-    }
-  ],
-  "cars": [
-    {
-      "id": 1,
-      "name": "車両１"
-    },
-    {
-      "id": 2,
-      "name": "車両２"
-    }
-  ],
-  "vahicle_allocation_table_by_car": [
-    {
-      "//": "ドライバーID",
-      "id": 1,
-      "//": "車両ID",
-      "group": 1,
-      "title": "大平 優馬 11:00〜16:00",
-      "start_time": "2023-10-30 11:00",
-      "end_time": "2023-10-30 16:00",
-      "note": "備考です"
-    },
-    {
-      "id": 2,
-      "group": 2,
-      "title": "田中　太郎 13:00〜20:00",
-      "start_time": "2023-10-30 13:00",
-      "end_time": "2023-10-30 20:00",
-      "note": "備考です"
-    }
-  ],
-  "vahicle_allocation_table_by_driver": [
-    {
-      "//": "車両ID",
-      "id": 1,
-      "//": "ドライバーID",
-      "group": 1,
-      "title": "車両１ 11:00〜16:00",
-      "start_time": "2023-10-30 11:00",
-      "end_time": "2023-10-30 16:00",
-      "note": "備考です"
-    },
-    {
-      "id": 2,
-      "group": 2,
-      "title": "車両２ 13:00〜20:00",
-      "start_time": "2023-10-30 13:00",
-      "end_time": "2023-10-30 20:00",
-      "note": "備考です"
-    }
-  ],
-  "post_vahicle_allocation_table": {
-    "driver_id": 1,
-    "car_id": 1,
-    "start_time": "2023-10-30 13:00",
-    "end_time": "2023-10-30 20:00",
-    "note": "備考です"
+  "work_total": {
+    "attendanceStatus": [
+      {
+        "id": 1,
+        "label": "所定日数",
+        "data": "22日"
+      },
+      {
+        "id": 2,
+        "label": "出勤日数",
+        "data": "20日"
+      },
+      {
+        "id": 3,
+        "label": "法定休日出勤日数",
+        "data": "1日"
+      },
+      {
+        "id": 4,
+        "label": "法定休日外出勤日数",
+        "data": "1日"
+      }
+    ],
+    "overtimeManagement": [
+      {
+        "id": 1,
+        "label": "残業時間:36",
+        "data": "160:30"
+      },
+      {
+        "id": 2,
+        "label": "有給取得時間",
+        "data": "10.0日"
+      },
+      {
+        "id": 3,
+        "label": "残業可能時間",
+        "data": "200:00"
+      }
+    ], 
+    "overtimeManagementMonthly": [
+      {
+        "id": 1,
+        "label": "本日までの残業時間",
+        "data": "20日"
+      },
+      {
+        "id": 2,
+        "label": "残業可能時間",
+        "data": "40:00"
+      }
+    ],
+    "holidayVacations": [
+        {
+          "id": 1,
+          "label": "公休日数",
+          "data": "5日"
+        },
+        {
+          "id": 2,
+          "label": "有給休暇日数",
+          "data": "1日"
+        },
+        {
+          "id": 3,
+          "label": "特別休暇日数",
+          "data": "1日"
+        }
+    ],
+    "workTypes": [
+        {
+          "id": 1,
+          "label": "出勤",
+          "data": "18日"
+        },
+        {
+          "id": 2,
+          "label": "休暇",
+          "data": "2日"
+        },
+        {
+          "id": 3,
+          "label": "休日出勤",
+          "data": "2日"
+        }
+    ]
   }
 }
