@@ -13,5 +13,5 @@ data.jsonファイルにモックApi戻り値のjsonデータを追加する。
 
 ## 既存API
 
-* ダッシュボードを取得する
-http://localhost:5000/api/dashboard
+* 勤怠集計データ
+  http://localhost:5000/work_total
